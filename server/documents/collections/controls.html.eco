@@ -1,0 +1,66 @@
+---
+layout      : 'default'
+css         : 'controls'
+standalone  : true
+
+element     : 'controls'
+elementType : 'collection'
+
+title       : 'Controls'
+description : 'A controls object that is used for Connect/Join App'
+type        : 'UI Collection'
+
+themes      : ['Default', 'Chubby', 'GitHub', 'Material']
+---
+
+<link rel="stylesheet/less" type="text/css" href="/src/definitions/collections/controls.less" />
+<!--<script src="/javascript/controls.js"></script>-->
+
+<%- @partial('header') %>
+
+<div class="main ui container">
+  <h2 class="ui dividing header">Types</h2>
+  <div class="example">
+    <h4 class="ui header">
+      Controls
+    </h4>
+    <p>A Controls Object</p>
+    <div class="ui ignored info message" >
+      <p>A controls object is basically a menu that is specialized so that it can be used in Connect/Join App.</p>
+    </div>
+    <div class="ui controls">
+      <div class="header">
+        000-000-000
+        <div class="sub header">
+          <i class="users icon"></i>
+          0 Participants
+        </div>
+      </div>
+      <div class="right controls">
+        <a class="control">
+          <i class="user add icon"></i>
+          Invite
+        </a>
+        <a class="control">
+          <i class="slideshare icon"></i>
+          Start Sharing
+        </a>
+        <div class="divider"></div>
+        <a class="control">
+          <i class="mute icon"></i>
+          Mute
+        </a>
+        <a class="control">
+          <i class="video icon"></i>
+          Hide Camera
+        </a>
+        <a class="control">
+          <div class="icon">
+            <i class="phone icon"></i>
+          </div>
+          Exit
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
