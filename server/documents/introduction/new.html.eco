@@ -137,7 +137,7 @@ type        : 'Main'
     <p>
       With 2019 around the corner and a lot of discussion we (core contributors) have agreed to move our core focus to FUI v3.0.
       This doesn't mean we won't be working on 2.x but means releases may be slowed down a little due to more work being put into v3.0.
-      You can read more about the future of FUI and v3.0 <a href="https://github.com/fomantic/Fomantic-UI/issues/319">here</a>
+      You can read more about the future of FUI and v3.0 <a href="https://github.com/PitcherAG/Fomantic-UI/issues/319">here</a>
     </p>
 
     <h4>Notes:</h4>
@@ -145,7 +145,7 @@ type        : 'Main'
       <li>
         With this release we removed the dependency of <code>prompt-sui</code> which removes the child dependency of <code>event-stream</code> this ensures
         that the library won't be downloading any (now deprecated) malicious code. If you want to learn more about the recent security
-        issues with <code>event-stream</code> please read <a href="https://github.com/fomantic/Fomantic-UI/issues/268">this issue</a>.
+        issues with <code>event-stream</code> please read <a href="https://github.com/PitcherAG/Fomantic-UI/issues/268">this issue</a>.
       </li>
       <li>
         In this release we had a big focus on removing a lot of the <code>!important</code> usage which in turn produced lots of issues.
@@ -363,7 +363,7 @@ type        : 'Main'
     <br />
 
     <p>We didn't just stop there we also added a lot of cool new features for other components and addressed lots of bugs. You can find a full list of changes
-      <a href="https://github.com/fomantic/Fomantic-UI/commit/cb3026ed46714ef19b87938ea7bd884d1ab2d92d">here</a></p>
+      <a href="https://github.com/PitcherAG/Fomantic-UI/commit/cb3026ed46714ef19b87938ea7bd884d1ab2d92d">here</a></p>
   </div>
 
   <div class="ui tab" data-tab="twosix">
@@ -859,7 +859,7 @@ type        : 'Main'
     <h2 class="ui dividing header">A new life</h2>
 
     <p>With active development slowing down the community has stood up to start a new life for Semantic, welcome to Fomantic-UI.</p>
-    <p>You can read the release notes <a href="https://github.com/fomantic/Fomantic-UI/blob/master/CHANGELOG.md">here</a>.</p>
+    <p>You can read the release notes <a href="https://github.com/PitcherAG/Fomantic-UI/blob/master/CHANGELOG.md">here</a>.</p>
 
     <h2 class="ui dividing header">New Features</h2>
 
