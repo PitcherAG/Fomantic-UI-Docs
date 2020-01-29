@@ -2348,6 +2348,17 @@ code .chunk {
   bottom: -2px;
 }
 
+
+/*******************************
+        Controls
+*******************************/
+.ui.controls {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  transform: none;
+}
+
 /* Remove Overview from pages with Examples */
 @media only screen and (max-width: 1500px) {
 
