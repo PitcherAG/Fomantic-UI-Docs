@@ -25,9 +25,17 @@ themes      : ['Default', 'Chubby', 'GitHub', 'Material']
       Controls
     </h4>
     <p>A Controls Object</p>
-    <div class="ui ignored info message" >
-      <p>A controls object is basically a menu that is specialized so that it can be used in Connect/Join App.</p>
-    </div>
+    <ul>
+      <li>
+        Created firstly for the Join/App Project. Here one can find the project itself: <a>https://join.pitcher.com</a>.
+      </li>
+      <li>
+        This object is basically a Fomantic menu that consists of an header-description content on the left side and an icon menu on the right side. However, the style is customized, basically created a new component so that it can be easily used within online meetings. <br />
+      </li>
+      <li>
+        After you installed the Fomantic UI, just add the example and you should be good to go!
+      </li>
+    </ul>
     <div class="ui controls">
       <div class="header">
         000-000-000
