@@ -72,7 +72,7 @@ docpad deploy-ghpages --env static
 
 If you find any typos or mistakes, submitting a fix is easy!
 
-- [Open the `documents/` folder](https://github.com/fomantic/Fomantic-UI-Docs/tree/master/server/documents) on GitHub
+- [Open the `documents/` folder](https://github.com/PitcherAG/Fomantic-UI-Docs/tree/master/server/documents) on GitHub
 - Click the “Edit” button on the appropriate page
 - Click to submit a pull request
 

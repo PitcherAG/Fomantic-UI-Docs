@@ -104,7 +104,7 @@ type        : 'Main'
 
     <ul class="ui list">
       <li class="item">
-        <a href="https://d2dt8ny5eluww1.cloudfront.net/" target="_blank">
+        <a href="https://ui.pitcher.com/" target="_blank">
           cloudfront
         </a>
         <span class="ui tiny grey label">
@@ -119,10 +119,10 @@ type        : 'Main'
     <div class="ui active basic tab vertical segment" data-tab="cloudfront">
       <div class="code" data-type="html">
         <!-- You MUST include jQuery before Fomantic -->
-        <script src="https://d2dt8ny5eluww1.cloudfront.net/libs/semantic/2.8.3/semantic.min.css"></script>
-        <link rel="stylesheet" type="text/css" href="https://d2dt8ny5eluww1.cloudfront.net/libs/semantic/<%= @getVersion() %>/semantic.min.css">
-        <script src="https://d2dt8ny5eluww1.cloudfront.net/libs/semantic/2.8.3/semantic.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://d2dt8ny5eluww1.cloudfront.net/libs/semantic/<%= @getVersion() %>/semantic.min.js">
+        <script src="https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.css"></script>
+        <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/<%= @getVersion() %>/semantic.min.css">
+        <script src="https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/<%= @getVersion() %>/semantic.min.js">
       </div>
     </div>
 <!--    <div class="ui basic tab vertical segment" data-tab="cdnjs">-->
@@ -150,17 +150,17 @@ type        : 'Main'
 
 <!--    <ul class="ui list">-->
 <!--      <li class="item">-->
-<!--        <a href="https://github.com/fomantic/Fomantic-UI-CSS" target="_blank">-->
+<!--        <a href="https://github.com/PitcherAG/Fomantic-UI-CSS" target="_blank">-->
 <!--          CSS Repository-->
 <!--        </a>-->
 <!--      </li>-->
 <!--      <li class="item">-->
-<!--        <a href="https://github.com/fomantic/Fomantic-UI-LESS" target="_blank">-->
+<!--        <a href="https://github.com/PitcherAG/Fomantic-UI-LESS" target="_blank">-->
 <!--          LESS Repository-->
 <!--        </a>-->
 <!--      </li>-->
 <!--      <li class="item">-->
-<!--        <a href="https://github.com/fomantic/Fomantic-UI-SASS" target="_blank">-->
+<!--        <a href="https://github.com/PitcherAG/Fomantic-UI-SASS" target="_blank">-->
 <!--          SASS Repository-->
 <!--        </a>-->
 <!--      </li>-->
@@ -217,8 +217,8 @@ type        : 'Main'
       CDN url.
     </p>
     <div class="ui segment">
-      <p>https://d2dt8ny5eluww1.cloudfront.net/libs/semantic/<span class="ui red text"><%= @getVersion() %></span>/semantic.min.css</p>
-      <p>https://d2dt8ny5eluww1.cloudfront.net/libs/semantic/<span class="ui red text"><%= @getVersion() %></span>/semantic.min.js</p>
+      <p>https://ui.pitcher.com/libs/semantic/<span class="ui red text"><%= @getVersion() %></span>/semantic.min.css</p>
+      <p>https://ui.pitcher.com/libs/semantic/<span class="ui red text"><%= @getVersion() %></span>/semantic.min.js</p>
     </div>
   </div>
 

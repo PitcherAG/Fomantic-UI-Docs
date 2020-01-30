@@ -549,7 +549,7 @@ themes      : ['Default']
           <div class="ui blue icon message" id="dommessage">
               <i class="github icon"></i>
               <div class="content">
-                  Download the source code at <br><br><a href="https://github.com/fomantic/Fomantic-UI"><b><span class="ui teal text">github</span></b></a>
+                  Download the source code at <br><br><a href="https://github.com/PitcherAG/Fomantic-UI"><b><span class="ui teal text">github</span></b></a>
               </div>
           </div>
           <div class="code" data-demo="true">
