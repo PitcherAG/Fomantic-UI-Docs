@@ -1,0 +1,52 @@
+---
+layout      : 'default'
+css         : 'icon'
+standalone  : true
+
+element     : 'icon_fontawesomepro'
+elementType : 'element'
+
+title       : 'Icon - FontAwesomePro'
+description : 'An icon is a glyph used to represent something else'
+type        : 'UI Element'
+
+themes      : ['Default']
+---
+
+<%- @partial('header') %>
+
+<div class="main ui container">
+  <iconSearch class="ui right aligned search">
+    <div class="ui icon input">
+      <input class="prompt" type="text" placeholder="Search icons..."/>
+      <i class="search icon"></i>
+    </div>
+    <div class="results"></div>
+  </iconSearch>
+
+  <h2 class="ui header">Icon - FontAwesomePro</h2>
+  <p>An icon set contains an arbitrary number of glyphs</p>
+  <div class="ui ignored warning message">
+    Icons serve a very similar function to text in a page. In Semantic/Fomantic icons receive a special tag <code>&lt;i&gt;</code> which allow for an abbreviated markup when sitting along-side text.
+  </div>
+
+  <div class="ui ignored message">Semantic includes a complete port of <a href="https://fontawesome.com/" target="_blank">Font Awesome 5.12.0</a> designed by the <a href="https://twitter.com/fontawesome">FontAwesome</a> team for its standard icon set.</div>
+
+  <div class="ui green message">
+    <p>Pitcher-UI includes a complete port of <a href="https://fontawesome.com/" target="_blank">Font Awesome 5.12.0</a> designed by the <a href="https://twitter.com/fontawesome">FontAwesome</a> team for its pro icon set as well.
+       So, if one uses only Fomantic or Semantic, the total count of icons is over 1,550. If you use Pitcher-UI, this count is over 7,700.</p>
+  </div>
+
+  <div class="ui red message">
+    <p>For using the icons from FontAwesome-Pro package, one should include the FontAwesomePro kit within the application, namely the head part of the html file. Then you can use all of the FontAwesomePro icons.</p>
+  </div>
+
+  Kit example:
+
+  <div class="code" data-type="html">
+    <script src="https://kit.fontawesome.com/yourkitnumberhere.js" crossorigin="anonymous"></script>
+  </div>
+
+  Icon example:
+  
+</div>
