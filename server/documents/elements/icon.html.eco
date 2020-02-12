@@ -17,7 +17,7 @@ themes      : ['Default']
 
 <script src="/javascript/icon.js"></script>
 
-<link rel="stylesheet" href="/lib/fas/css/all.min.css"/>
+<link rel="stylesheet" href="/lib/fas/css/all.min.css">
 
 <div class="main ui container">
 
@@ -7121,7 +7121,6 @@ themes      : ['Default']
         Add on Twitter
       </h2>
     </div>
-
   </div>
 
   <div class="ui tab" data-tab="fontawesomepro">
@@ -7139,9 +7138,13 @@ themes      : ['Default']
       One can use icons from Pro on local by simply downloading the Pro package from FontAwesome. The credentials for the Pro account is present on 1Pass.
     </div>
 
+    <div class="ui blue message">
+      The usage of these icons are just like normal icons, except one should look up for icon from FontAwesome Pro and get the html of the icon from there.
+    </div>
+
     <div class="icon example">
       <h4 class="ui header">Example Icons</h4>
-      <p>Icon from Pro Pack</p>
+      <p>Some icons from Pro Pack</p>
       <div class="ui doubling three column grid">
         <div class="column"><i class="far fa-truck-monster" data-search-terms=""></i>Regular Monster Truck</div>
         <div class="column"><i class="far fa-alien icon" data-search-terms=""></i>Regular Alien</div>
