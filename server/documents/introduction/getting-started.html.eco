@@ -105,7 +105,7 @@ type        : 'Main'
     <ul class="ui list">
       <li class="item">
         <a href="https://ui.pitcher.com/" target="_blank">
-          cloudfront
+          ui.pitcher.com
         </a>
         <span class="ui tiny grey label">
           Recommended
@@ -189,7 +189,7 @@ type        : 'Main'
 
   <div class="no example">
     <h4 class="ui header">Updating Pitcher Admin File Installation</h4>
-    <p>This section is not implemented yet.</p>
+    <p>This section is not implemented yet. Please use CDN provider as updating method.</p>
 <!--    <p>If you are using Fomantic-UI via Pitcher Admin File you can simply run the following command</p>-->
 <!--    <div class="ignored code" data-type="bash">-->
 <!--      $ npm update fomantic-ui-->
@@ -247,28 +247,54 @@ type        : 'Main'
 <!--      replace your local files with the latest ones.-->
 <!--    </p>-->
 <!--  </div>-->
-
+  <h2 class="ui dividing header">Using FontAwesome-Pro Package</h2>
 
   <div class="no example">
+      <h4 class="ui header">Using a CDN provider</h4>
+
+      <p>FontAwesome-Pro package is available under Fomantic-UI of Pitcher AG on the following CDN provider:</p>
+
+      <ul class="ui list">
+        <li class="item">
+          <a href="https://ui.pitcher.com/" target="_blank">
+            ui.pitcher.com
+          </a>
+          <span class="ui tiny grey label">
+            Recommended
+          </span>
+        </li>
+      </ul>
+
+      <div class="ui active basic tab vertical segment">
+        <div class="code" data-type="html">
+          <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.css">
+          <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/fontawesome-pro/5.12.1/css/all.min.css">
+        </div>
+      </div>
+
+    <div class="no example">
     <h2 class="ui dividing header">Resources</h2>
 
-    <p>
-      This is a list of some useful resources about Fomantic-UI. If you find any resources or want
-      to add something you created feel free to create a pull request <a href="https://github.com/PitcherAG/Fomantic-UI-Docs" target="_blank">here</a>!
-    </p>
+      <p>
+        This is a list of some useful resources about Fomantic-UI. If you find any resources or want
+        to add something you created to Pitcher-UI feel free to create a pull request <a href="https://github.com/PitcherAG/Fomantic-UI-Docs" target="_blank">here</a>!
+      </p>
 
-<!--    <ul class="ui list">-->
-<!--      <li class="item">-->
-<!--        <a target="_blank" href="https://medium.com/@fomantic/setting-up-fomantic-ui-with-react-f701b68f736c">-->
-<!--          Setting up Fomantic-UI with React-->
-<!--        </a>-->
-<!--      </li>-->
-<!--      <li class="item">-->
-<!--        <a target="_blank" href="https://medium.com/@marekurbanowicz/how-to-customize-fomantic-ui-with-less-and-webpack-applicable-to-semantic-ui-too-fbf98a74506c">-->
-<!--          How to customize Fomantic UI with LESS and Webpack? (applicable to Semantic UI too)-->
-<!--        </a>-->
-<!--      </li>-->
-<!--    </ul>-->
-<!--  </div>-->
+
+    <ul class="ui list">
+      <li class="item">
+        <a target="_blank" href="https://medium.com/@fomantic/setting-up-fomantic-ui-with-react-f701b68f736c">
+          Setting up Fomantic-UI with React
+        </a>
+      </li>
+      <li class="item">
+        <a target="_blank" href="https://medium.com/@marekurbanowicz/how-to-customize-fomantic-ui-with-less-and-webpack-applicable-to-semantic-ui-too-fbf98a74506c">
+          How to customize Fomantic UI with LESS and Webpack? (applicable to Semantic UI too)
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  </div>
 
 </div>
