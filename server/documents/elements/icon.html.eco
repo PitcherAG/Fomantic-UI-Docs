@@ -13,11 +13,11 @@ type        : 'UI Element'
 themes      : ['Default']
 ---
 
-<%- @partial('header', { tabs: { icon: 'Icons', definition: 'Definition', fontawesomepro: 'FontAwesome Pro Pack' } }) %>
+<%- @partial('header', { tabs: { icon: 'Icons', definition: 'Definition', fontawesomepro: 'Fontawesome Pro' } }) %>
 
 <script src="/javascript/icon.js"></script>
 
-<link href="/lib/fas/css/all.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/fontawesome-pro/5.12.1/css/all.css">
 
 <div class="main ui container">
 
@@ -7122,32 +7122,38 @@ themes      : ['Default']
 
 <div class="ui tab" data-tab="fontawesomepro">
 
-  <h2 class="ui header">FontAwesomePro Icon Set</h2>
 
-  <div class="ui green message">
-    Pitcher-UI includes a complete port of <a href="https://fontawesome.com/" target="_blank">Font Awesome 5.12.0</a> designed by the <a href="https://twitter.com/fontawesome">FontAwesome</a> team for its pro icon set as well.
-    So, if one uses only Fomantic or Semantic, the total count of icons is around 1,550. If you use Pitcher-UI, this count is over 7,700.
+  <h2 class="ui header">Getting Started</h2>
+
+  <h3 class="ui header">Using our CDN provider</h3>
+  <p>Fontawesome Pro is available on the following CDN provider:</p>
+
+  <div class="code" data-type="html">
+    <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/fontawesome-pro/5.12.1/css/all.min.css">
   </div>
 
-  <div class="ui red message">
-    One can use icons from Pro on local by simply downloading the Pro package from FontAwesome. The credentials for the Pro account is present on 1Pass.
-  </div>
+  <h3 class="ui header">Download</h3>
+  <p>The Fontawesome Pro icon set can be downloaded from their website using the credentials stored in 1Password.</p>
 
-  <div class="ui blue message">
+  <h2 class="ui header">Usage</h2>
+  <p>
     The usage of these icons are just like normal icons(like in the Definition section), except one should look up for icon from FontAwesome Pro and get the html of the icon from there.
-  </div>
+  </p>
+
+  <h2>Examples</h2>
 
   <div class="example">
     <h4 class="ui header">Regular Monster Truck, size is 10x</h4>
     <i class="far fa-truck-monster fa-10x"></i>
   </div>
 
-  <div class="another example">
-    <h4 class="ui header">Solid Alien, size is 5x, spinning animation</h4>
-    <i class="fas fa-alien fa-5x fa-spin"></i>
+  <div class="example">
+    <h4 class="ui header">Light Snowboarding, size is 5x, spinning animation</h4>
+    <i class="fal fa-snowboarding fa-5x fa-spin"></i>
   </div>
 
-  <div class="another example">
+  <div class="example">
     <h4 class="ui header">Duotone Starfighter, size is 7x, rotated 90 degrees</h4>
     <i class="fad fa-starfighter fa-7x fa-rotate-90"></i>
   </div>
