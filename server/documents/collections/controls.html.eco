@@ -27,7 +27,7 @@ themes      : ['Default', 'Chubby', 'GitHub', 'Material']
     <p>A Controls Object</p>
     <ul>
       <li>
-        Created firstly for the Join/App Project. Here one can find the project itself: <a>https://join.pitcher.com</a>.
+        Created firstly for the Join/App Project. Here one can find the project itself: <a style="text-decoration: underline" href="https://join.pitcher.com">https://join.pitcher.com</a>.
       </li>
       <li>
         This object is basically a Fomantic menu that consists of an header-description content on the left side and an icon menu on the right side. However, the style is customized, basically created a new component so that it can be easily used within online meetings. <br />
