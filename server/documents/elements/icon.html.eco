@@ -7126,7 +7126,7 @@ themes      : ['Default']
   <h2 class="ui header">Getting Started</h2>
 
   <h3 class="ui header">Using our CDN provider</h3>
-  <p>Fontawesome Pro is available on our CDN provider:</p>
+  <p>Fontawesome Pro is available on our CDN:</p>
 
   <div class="code" data-type="html">
     <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.css">
