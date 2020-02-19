@@ -57,7 +57,7 @@ standalone : false
       </a>
       <h1 class="ui inverted header">
         <span class="library">
-          Fomantic-UI
+          Pitcher-UI
         </span>
         <span class="tagline">
           A community fork of Semantic-UI
