@@ -91,9 +91,9 @@ type        : 'Main'
 <!--    </p>-->
 <!--    <div class="code" data-type="html">-->
 <!--      &lt;!&ndash; You MUST include jQuery before Fomantic &ndash;&gt;-->
-<!--      <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>-->
-<!--      <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">-->
-<!--      <script src="/semantic/dist/semantic.min.js"></script>-->
+<!--      <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1https://ui.pitcher.com/libs/semantic/2.8.3/jquery.min.js"></script>-->
+<!--      <link rel="stylesheet" type="text/css" href="/semantichttps://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.css">-->
+<!--      <script src="/semantichttps://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.js"></script>-->
 <!--    </div>-->
   </div>
 
@@ -136,9 +136,9 @@ type        : 'Main'
 <!--    <div class="ui basic tab vertical segment" data-tab="unpkg">-->
 <!--      <div class="code" data-type="html">-->
 <!--        &lt;!&ndash; You MUST include jQuery before Fomantic &ndash;&gt;-->
-<!--        <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>-->
-<!--        <link rel="stylesheet" type="text/css" href="https://unpkg.com/fomantic-ui@<%= @getVersion() %>/dist/semantic.min.css">-->
-<!--        <script src="https://unpkg.com/fomantic-ui@<%= @getVersion() %>/dist/semantic.min.js"></script>-->
+<!--        <script src="https://unpkg.com/jquery@3.3.1https://ui.pitcher.com/libs/semantic/2.8.3/jquery.js"></script>-->
+<!--        <link rel="stylesheet" type="text/css" href="https://unpkg.com/fomantic-ui@<%= @getVersion() %>https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.css">-->
+<!--        <script src="https://unpkg.com/fomantic-ui@<%= @getVersion() %>https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.js"></script>-->
 <!--      </div>-->
 <!--    </div>-->
   </div>
