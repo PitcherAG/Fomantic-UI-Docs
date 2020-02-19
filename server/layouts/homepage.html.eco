@@ -7,8 +7,8 @@
   <link rel="stylesheet" type="text/css" href="/stylesheets/home.css">
   <link rel="stylesheet/less" type="text/css" href="/src/definitions/elements/button.less" />
 
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/docsearch.js@2https://ui.pitcher.com/libs/semantic/2.8.3/cdn/docsearch.min.css"/>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2https://ui.pitcher.com/libs/semantic/2.8.3/cdn/docsearch.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
 
   <%- @partial('tracking') %>
 </head>

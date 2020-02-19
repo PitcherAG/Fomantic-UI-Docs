@@ -13,7 +13,7 @@ type        : 'UI Behavior'
 ---
 
 
-<script src="https://ui.pitcher.com/libs/semantic/2.8.3/components/form.js"></script>
+<script src="/dist/components/form.js"></script>
 <script src="/javascript/validate-form.js"></script>
 
 <%- @partial('header', { tabs: { usage: 'Usage', examples: 'Examples', settings: 'Settings'} }) %>
