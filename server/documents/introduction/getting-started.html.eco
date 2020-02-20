@@ -120,7 +120,6 @@ type        : 'Main'
       <div class="code" data-type="html">
         <!-- You MUST include jQuery before Fomantic -->
         <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/<%= @getVersion() %>/semantic.min.css">
-        <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/<%= @getVersion() %>/semantic.min.js">
       </div>
     </div>
 <!--    <div class="ui basic tab vertical segment" data-tab="cdnjs">-->
