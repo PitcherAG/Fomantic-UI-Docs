@@ -119,9 +119,7 @@ type        : 'Main'
     <div class="ui active basic tab vertical segment" data-tab="cloudfront">
       <div class="code" data-type="html">
         <!-- You MUST include jQuery before Fomantic -->
-        <script src="https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.css"></script>
         <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/<%= @getVersion() %>/semantic.min.css">
-        <script src="https://ui.pitcher.com/libs/semantic/2.8.3/semantic.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://ui.pitcher.com/libs/semantic/<%= @getVersion() %>/semantic.min.js">
       </div>
     </div>
