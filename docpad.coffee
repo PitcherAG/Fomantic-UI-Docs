@@ -24,7 +24,7 @@ docpadConfig = {
 		site:
 
 			# The production url of our website
-			url: "https://fomantic-ui.com"
+			url: "https://ui.pitcher.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [],
@@ -34,7 +34,7 @@ docpadConfig = {
 			branch: "master",
 
 			# The default title of our website
-			title: "Fomantic-UI"
+			title: "Pitcher-UI"
 
 			# The website description (for SEO)
 			description: """
@@ -65,7 +65,7 @@ docpadConfig = {
 
 		getZip: ->
 			if @site.version
-				"https://github.com/fomantic/Fomatnic-UI/archive/" + @site.version + ".zip"
+				"https://github.com/PitcherAG/Fomantic-UI/archive/" + @site.version + ".zip"
 			else
 				"https://github.com/PitcherAG/Fomantic-UI/archive/master.zip"
 
