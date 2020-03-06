@@ -1,8 +1,8 @@
-# Fomantic Docs
+# Pitcher UI Docs
 
 NOTE: Fomantic was created to continue active development of Semantic-UI and has the intent to be merged back into the master repository once active development can restart. For more info please read the following issues https://github.com/Semantic-Org/Semantic-UI/issues/6109 https://github.com/Semantic-Org/Semantic-UI/issues/6413
 
-This folder contains the templates used to generate the static website for [fomantic-ui.com](http://fomantic-ui.com). 
+This folder contains the templates used to generate the static website for [ui.pitcher.com](http://ui.pitcher.com). 
 
 This repo can be used to create a fork of the UI documents to serve as styleguide for your project.
 
@@ -17,7 +17,7 @@ docpad update
 docpad upgrade
 ```
 
-### Generating Fomantic UI for Docs
+### Generating Pitcher UI for Docs
 
 Assuming two sibling folders:
 
