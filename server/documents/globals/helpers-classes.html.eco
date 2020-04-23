@@ -1,0 +1,232 @@
+---
+layout      : 'default'
+css         : 'helper-classes-page'
+standalone  : true
+
+element     : 'helper-classes'
+elementType : 'global'
+
+title       : 'Helper Classes'
+description : 'Helpers classes are useful for modifying elements fast without creating custom CSS classes for each element.'
+type        : 'UI Global'
+
+themes      : ['default']
+---
+
+<%- @partial('header') %>
+<style>
+.bold {
+  font-weight: 500;
+}
+.italic {
+  font-style: italic;
+}
+
+code.red {
+  background: #fbe5e1;
+  color: #c0341d;
+  padding: 1px 6px;
+}
+</style>
+<div class="main ui container">
+  <h2 class="ui dividing header">Types</h2>
+  <div class="example">
+    <h3 class="ui header">
+      Spacing classes
+    </h3>
+    <div style="font-size: 16px; margin-top: 1em; line-height: 1.5;">The spacing classes apply <span class="bold">margin</span> or <span class="bold">padding</span> to an element ranging from <span class="italic">0</span> to <span class="italic">15</span>. Each size increment multiplied with <span class="ui red text bold">4px</span>. 
+      <br />These classes can be applied using the following format <code class="red">{property}{direction}-{size}</code>.
+    </div>
+    <p style="margin-bottom: 0;">The <span class="bold">property</span> applies the type of spacing:</p>
+     <ul style="margin-top: 0.5em;">
+      <li>
+        <code class="red">m</code> - applies <code class="red">margin</code>
+      </li>
+      <li>
+        <code class="red">p</code> - applies <code class="red">padding</code>
+      </li>
+    </ul>
+    <p style="margin-bottom: 0;">The <span class="bold">direction</span> designates the side the property applies to:</p>
+     <ul style="margin-top: 0.5em;">
+      <li>
+        <code class="red">t</code> - applies the spacing for <code class="red">margin-top</code> and <code class="red">padding-top</code> 
+      </li>
+      <li>
+        <code class="red">b</code> - applies the spacing for <code class="red">margin-bottom</code> and <code class="red">padding-bottom</code> 
+      </li>
+      <li>
+        <code class="red">l</code> - applies the spacing for <code class="red">margin-left</code> and <code class="red">padding-left</code> 
+      </li>
+      <li>
+        <code class="red">r</code> - applies the spacing for <code class="red">margin-right</code> and <code class="red">padding-right</code> 
+      </li>
+      <li>
+        <code class="red">x</code> - applies the spacing for both <code class="red">*-left</code> and <code class="red">*-right</code> 
+      </li>
+      <li>
+        <code class="red">y</code> - applies the spacing for both <code class="red">*-top</code> and <code class="red">*-bottom</code> 
+      </li>
+      <li>
+        <code class="red">a</code> - applies the spacing for the property in all directions
+      </li>
+    </ul>
+    <p style="margin-bottom: 0;">The <span class="bold">size</span> controls the increment of the property in 4px intervals:</p>
+    <ul style="margin-top: 0.5em;">
+      <li>
+        <code class="red">0</code> - eliminates all <code class="red">margin</code> or <code class="red">padding</code> by setting it to <code class="red">0</code> 
+      </li>
+      <li>
+        <code class="red">1</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 4px
+      </li>
+      <li>
+        <code class="red">2</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 8px
+      </li>
+      <li>
+        <code class="red">3</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 12px
+      </li>
+      <li>
+        <code class="red">4</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 16px
+      </li>
+      <li>
+        <code class="red">5</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 20px
+      </li>
+      <li>
+        <code class="red">6</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 24px
+      </li>
+      <li>
+        <code class="red">7</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 28px
+      </li>
+      <li>
+        <code class="red">8</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 32px
+      </li>
+      <li>
+        <code class="red">9</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 36px
+      </li>
+      <li>
+        <code class="red">10</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 40px
+      </li>
+      <li>
+        <code class="red">11</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 44px
+      </li>
+      <li>
+        <code class="red">12</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 48px
+      </li>
+      <li>
+        <code class="red">13</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 52px
+      </li>
+      <li>
+        <code class="red">14</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 56px
+      </li>
+      <li>
+        <code class="red">15</code> - sets <code class="red">margin</code> or <code class="red">padding</code> to 60px
+      </li>
+      <li>
+        <code class="red">auto</code> - sets the spacing to <code class="red">auto</code> <span class="italic">(margin only)</span>
+      </li>
+    </ul>
+    <h3 class="header">Examples</h3>
+<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"mt-5"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds margin-top: 20px;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"mx-0"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds margin-left: 0; margin-right: 0;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"mr-auto"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span> <code class="red" style="font-size: 11px;">--> adds margin-right: auto;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"pa-2"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds padding: 8px;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"py-3"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds padding-top: 12px; padding-bottom: 12px;</code></code></pre></div>
+  </div>
+    <div class="example">
+    <h4 class="ui header">
+      Flex alignment classes
+    </h4>
+    <div style="font-size: 16px; margin-top: 1em; line-height: 1.5;">The flex alignment classes apply <span class="bold">align-items</span> or <span class="bold">justify-content</span> to a flex element.
+      <br />These classes can be applied using the following format <code class="red">justify-content-{alignment}</code> or <code class="red">align-items-{alignment}</code>
+    </div>
+    <h3 class="header">Available alignments</h3>
+    <ul style="margin-top: 0.5em;">
+      <li>
+        <code class="red">center</code>
+      </li>
+      <li>
+        <code class="red">start</code>
+      </li>
+      <li>
+        <code class="red">end</code>
+      </li>
+      <li>
+        <code class="red">space-around</code>
+      </li>
+      <li>
+        <code class="red">space-between</code>
+      </li>
+      <li>
+        <code class="red">stretch</code>
+      </li>
+      <li>
+        <code class="red">baseline</code>
+      </li>
+    </ul>
+    <h3 class="header">Examples</h3>
+<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"justify-content-center"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies justify-content: center;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"align-items-start"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>       <code class="red" style="font-size: 11px;">--> applies align-items: flex-start;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"justify-content-end"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>     <code class="red" style="font-size: 11px;">--> applies justify-content: flex-end; </code></code></pre></div>
+  </div>
+    <div class="example">
+    <h4 class="ui header">
+      Flex direction classes
+    </h4>
+    <div style="font-size: 16px; margin-top: 1em; line-height: 1.5;">The flex direction classes apply <span class="bold">flex-direction</span> to a flex element.
+      <br />These classes can be applied using the following format <code class="red">fd-{value}</code>
+    </div>
+    <h3 class="header">Available values</h3>
+    <ul style="margin-top: 0.5em;">
+      <li>
+        <code class="red">row</code>
+      </li>
+      <li>
+        <code class="red">column</code>
+      </li>
+    </ul>
+    <h3 class="header">Examples</h3>
+<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"fd-row"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>     <code class="red" style="font-size: 11px;">--> applies flex-direction: row;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"fd-column"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies flex-direction: column; </code></code></pre></div>
+  </div>
+    <div class="example">
+    <h4 class="ui header">
+      Display classes
+    </h4>
+    <div style="font-size: 16px; margin-top: 1em; line-height: 1.5;">The display classes apply <span class="bold">display</span> to an element.
+      <br />These classes can be applied using the following format <code class="red">d-{value}</code>
+    </div>
+    <h3 class="header">Available values</h3>
+    <ul style="margin-top: 0.5em;">
+      <li>
+        <code class="red">flex</code>
+      </li>
+      <li>
+        <code class="red">block</code>
+      </li>
+      <li>
+        <code class="red">inline-block</code>
+      </li>
+      <li>
+        <code class="red">inline-flex</code>
+      </li>
+    </ul>
+    <h3 class="header">Examples</h3>
+<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"d-flex"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>          <code class="red" style="font-size: 11px;">--> applies display: flex;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"d-inline-block"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies display: inline-block;</code>
+<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"d-block"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>         <code class="red" style="font-size: 11px;">--> applies display: block; </code></code></pre></div>
+  </div>
+    <div class="example">
+    <h4 class="ui header">
+      Other
+    </h4>
+    <div style="font-size: 16px; margin-top: 1em; line-height: 1.5;">Here you will find other classes that might be useful.
+    </div>
+    <ul style="margin-top: 0.5em;">
+      <li>
+        <code class="red">.fill-height</code> - applies <code class="red">height: 100%;</code> to an element
+      </li>
+      <li>
+        <code class="red">.clearfix</code> - clearfix when using <code class="red">float</code> in a child element
+      </li>
+    </ul>
+  </div>
+</div>
