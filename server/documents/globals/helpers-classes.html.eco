@@ -27,6 +27,9 @@ code.red {
   color: #c0341d;
   padding: 1px 6px;
 }
+#example .example i.code {
+  display: none;
+}
 </style>
 <div class="main ui container">
   <h2 class="ui dividing header">Types</h2>
@@ -125,11 +128,11 @@ code.red {
       </li>
     </ul>
     <h3 class="header">Examples</h3>
-<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"mt-5"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds margin-top: 20px;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"mx-0"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds margin-left: 0; margin-right: 0;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"mr-auto"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span> <code class="red" style="font-size: 11px;">--> adds margin-right: auto;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"pa-2"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds padding: 8px;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"py-3"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds padding-top: 12px; padding-bottom: 12px;</code></code></pre></div>
+<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"mt-5"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds margin-top: 20px;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"mx-0"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds margin-left: 0; margin-right: 0;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"mr-auto"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span> <code class="red" style="font-size: 11px;">--> adds margin-right: auto;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"pa-2"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds padding: 8px;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"py-3"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>    <code class="red" style="font-size: 11px;">--> adds padding-top: 12px; padding-bottom: 12px;</code></code></pre></div>
   </div>
     <div class="example">
     <h4 class="ui header">
@@ -163,9 +166,9 @@ code.red {
       </li>
     </ul>
     <h3 class="header">Examples</h3>
-<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"justify-content-center"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies justify-content: center;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"align-items-start"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>       <code class="red" style="font-size: 11px;">--> applies align-items: flex-start;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"justify-content-end"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>     <code class="red" style="font-size: 11px;">--> applies justify-content: flex-end; </code></code></pre></div>
+<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"justify-content-center"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies justify-content: center;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"align-items-start"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>       <code class="red" style="font-size: 11px;">--> applies align-items: flex-start;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"justify-content-end"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>     <code class="red" style="font-size: 11px;">--> applies justify-content: flex-end; </code></code></pre></div>
   </div>
     <div class="example">
     <h4 class="ui header">
@@ -184,8 +187,8 @@ code.red {
       </li>
     </ul>
     <h3 class="header">Examples</h3>
-<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"fd-row"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>     <code class="red" style="font-size: 11px;">--> applies flex-direction: row;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"fd-column"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies flex-direction: column; </code></code></pre></div>
+<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"fd-row"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>     <code class="red" style="font-size: 11px;">--> applies flex-direction: row;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"fd-column"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies flex-direction: column; </code></code></pre></div>
   </div>
     <div class="example">
     <h4 class="ui header">
@@ -210,9 +213,9 @@ code.red {
       </li>
     </ul>
     <h3 class="header">Examples</h3>
-<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"d-flex"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>          <code class="red" style="font-size: 11px;">--> applies display: flex;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"d-inline-block"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies display: inline-block;</code>
-<span class="tag">&lt;<span class="title">div</span><span class="attribute">class</span>=<span class="value">"d-block"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>         <code class="red" style="font-size: 11px;">--> applies display: block; </code></code></pre></div>
+<div class="ui existing segment"><pre><code class="code xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"d-flex"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>          <code class="red" style="font-size: 11px;">--> applies display: flex;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"d-inline-block"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>  <code class="red" style="font-size: 11px;">--> applies display: inline-block;</code>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"d-block"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span>         <code class="red" style="font-size: 11px;">--> applies display: block; </code></code></pre></div>
   </div>
     <div class="example">
     <h4 class="ui header">
