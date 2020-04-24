@@ -10,7 +10,8 @@
     "url": "git://github.com/fomantic/Fomantic-UI-Docs.git"
   },
   "scripts": {
-    "serve": "node --stack-size=65500 /usr/local/bin/docpad run"
+    "serve": "node --stack-size=65500 /usr/local/bin/docpad run",
+    "deploy": "node --stack-size=65500 /usr/local/bin/docpad  deploy-ghpages --env static"
   },
   "dependencies": {
     "docpad": "~6.79.4",
