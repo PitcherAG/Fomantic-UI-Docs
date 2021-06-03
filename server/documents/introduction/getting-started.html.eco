@@ -104,8 +104,8 @@ type        : 'Main'
 
     <ul class="ui list">
       <li class="item">
-        <a href="https://ui.pitcher.com/" target="_blank">
-          ui.pitcher.com
+        <a href="<%= @getDeployUrl() %>" target="_blank">
+          <%= @getDeployUrl() %>
         </a>
         <span class="ui tiny grey label">
           Recommended
@@ -254,8 +254,8 @@ type        : 'Main'
 
       <ul class="ui list">
         <li class="item">
-          <a href="https://ui.pitcher.com/" target="_blank">
-            ui.pitcher.com
+          <a href="<%= @getDeployUrl() %>" target="_blank">
+            <%= @getDeployUrl() %>
           </a>
           <span class="ui tiny grey label">
             Recommended

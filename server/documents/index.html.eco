@@ -37,7 +37,7 @@ standalone : false
           <a class="twitter-share-button twitter"
             href="http://twitter.com/share"
             data-text="Pitcher-UI <%= @getVersion() %> is out!"
-            data-url="https://ui.pitcher.com"
+            data-url="<%= @getDeployUrl() %>"
             data-via="pitcherui">
           </a>
           <script type="text/javascript">

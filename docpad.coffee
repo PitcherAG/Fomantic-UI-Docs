@@ -24,7 +24,10 @@ docpadConfig = {
 		site:
 
 			# The production url of our website
-			url: "https://ui.pitcher.com"
+			url: "https://pitcherag.github.io/Fomantic-UI-Docs"
+
+			# Pitcher url of the website
+			deployUrl: "https://ui.pitcher.com/legacy"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [],
@@ -62,6 +65,12 @@ docpadConfig = {
 
 		getBranch: ->
 			@site.branch
+
+		getUrl: ->
+			@site.url
+
+		getDeployUrl: ->
+			@site.deployUrl
 
 		getZip: ->
 			if @site.version
